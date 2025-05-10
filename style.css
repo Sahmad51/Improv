@@ -1,47 +1,64 @@
+/* Page font and spacing */
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f9f9fb;
-  color: #222;
+  background: #f0f4f8;
+  color: #333;
   line-height: 1.6;
-  padding: 30px;
-  max-width: 800px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
+/* Centered container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Nav bar styling */
 header {
   background-color: #007acc;
   padding: 15px 0;
-  margin-bottom: 30px;
-  text-align: center;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 nav li {
-  display: inline;
-  margin: 0 10px;
+  display: inline-block;
+  margin: 0 15px;
 }
 
 nav a {
   color: white;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+/* Headings */
 h1 {
   color: #007acc;
+  font-size: 28px;
+  margin-bottom: 20px;
   border-bottom: 2px solid #007acc;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
+/* Paragraphs and links */
 p {
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
